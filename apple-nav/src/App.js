@@ -7,6 +7,11 @@ import Home from './Components/Home';
 import Mac from './Components/Mac';
 
 import data from './data';
+import Ipad from './Components/iPad';
+import Iphone from './Components/iPhone';
+import Watch from './Components/Watch';
+import TV from './Components/TV';
+import Music from './Components/Music';
 
 
 class App extends React.Component {
@@ -31,11 +36,11 @@ class App extends React.Component {
     <MainNav />
     <Route exact path ='/' component={Home} />
     <Route exact path ='/mac' component={Mac} />
-    {/* <Route exact path ='/ipad' component={iPad} /> */}
-    {/* <Route exact path ='/iphone' component={iPhone} /> */}
-    {/* <Route exact path ='/watch' component={Watch} /> */}
-    {/* <Route exact path ='/tv' component={TV} /> */}
-    {/* <Route exact path ='/music' component={Music} /> */}
+    <Route exact path ='/ipad' component={Ipad} />
+    <Route exact path ='/iphone' component={Iphone} />
+    <Route exact path ='/watch' component={Watch} />
+    <Route exact path ='/tv' component={TV} />
+    <Route exact path ='/music' component={Music} />
     </div>
   );
 }

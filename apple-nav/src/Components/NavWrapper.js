@@ -12,6 +12,7 @@ class MainNav extends React.Component {
     render() {
         return(
             <div>
+                <Link to='/'>Home</Link>
                 <Link to='/mac'>Mac</Link>
                 <Link to='/ipad'>iPad</Link>
                 <Link to='/iphone'>iPhone</Link>

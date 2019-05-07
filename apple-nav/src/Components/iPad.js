@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home () {
+function Ipad () {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>iPad</h1>
         </div>
     )
 }
 
-export default Home;
+export default Ipad;

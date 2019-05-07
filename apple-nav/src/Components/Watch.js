@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home () {
+function Watch () {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Watch</h1>
         </div>
     )
 }
 
-export default Home;
+export default Watch;
